@@ -1390,7 +1390,7 @@ progress {
 
   .col-md-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 33.333333%;
   }
 
   .col-md-7 {
@@ -1400,7 +1400,7 @@ progress {
 
   .col-md-8 {
     flex: 0 0 auto;
-    width: 66.666667%;
+    width: 100%;
   }
 
   .col-md-9 {
@@ -27633,5 +27633,16 @@ pre[class*="language-"] {
     overflow: auto !important;
   }
 }
+.text-col{
+  width: 50%;
+}
 
+.site-container {
+  background-color: #fff;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.05);
+  margin: 40px auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  max-width: 1280px;
+}
 /*# sourceMappingURL=kit-free.css.map */
